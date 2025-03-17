@@ -1,64 +1,171 @@
-# reconciliation-website
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reconciliation in Canada</title>
+    <title>Indigenous Athletes in History</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        header { background: #333; color: white; padding: 10px 0; text-align: center; }
-        nav { text-align: center; padding: 10px; }
-        nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; }
+        header { background: #4CAF50; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        nav { text-align: center; background: #333; padding: 10px; }
+        nav a { margin: 15px; text-decoration: none; color: white; font-weight: bold; font-size: 18px; }
         section { padding: 20px; }
-        footer { background: #333; color: white; text-align: center; padding: 10px 0; margin-top: 20px; }
-        .container { width: 80%; margin: auto; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        footer { background: #333; color: white; text-align: center; padding: 15px; font-size: 16px; }
+        .container { width: 90%; margin: auto; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 10px; }
+        .athlete-card { background: #eef; padding: 15px; margin: 15px 0; border-radius: 8px; display: flex; align-items: center; }
+        .athlete-card img { width: 150px; height: 150px; border-radius: 8px; margin-right: 20px; }
+        h2 { color: #4CAF50; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Reconciliation in Canada: Moving Forward</h1>
+        <h1>Indigenous Athletes in History</h1>
     </header>
     
     <nav>
-        <a href="#problem">Problem of Practice</a>
-        <a href="#solution">Proposed Solution</a>
-        <a href="#media">Media Piece</a>
-        <a href="#reflection">Reflection</a>
+        <a href="history.html">History</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="impact.html">Impact & Legacy</a>
+        <a href="resources.html">Resources</a>
     </nav>
     
     <div class="container">
-        <section id="problem">
-            <h2>Problem of Practice</h2>
-            <p>One of the Calls to Action that remains unanswered is Call to Action #53, which calls for the establishment of a National Council for Reconciliation. Despite promises, progress has been slow, limiting accountability and tracking of Reconciliation efforts.</p>
-            <p>The issue is that without a formal, independent body, there is no systemic way to ensure progress is made toward true Reconciliation.</p>
-        </section>
-        
-        <section id="solution">
-            <h2>Proposed Solution</h2>
-            <p>To address this, the government should establish and fund an independent National Council for Reconciliation with Indigenous leadership. This council should regularly publish reports, track progress, and hold the government accountable for fulfilling all TRC Calls to Action.</p>
-            <p>Our target audience includes policymakers, educators, and the general public who must be informed and motivated to push for this change.</p>
-        </section>
-        
-        <section id="media">
-            <h2>Media Piece</h2>
-            <p>To amplify our message, we have created a Public Service Announcement video that highlights the importance of the National Council for Reconciliation.</p>
-            <video width="100%" controls>
-                <source src="psa_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>Our PSA combines visuals, speech, and text on the screen to persuade audiences about the need for accountability in Reconciliation.</p>
-        </section>
-        
-        <section id="reflection">
-            <h2>Reflection</h2>
-            <p>Through this project, we explored the gaps in Reconciliation efforts and how a lack of accountability hinders progress. Our research and media production reinforced the necessity of Indigenous-led oversight.</p>
-            <p>By incorporating persuasive techniques, multimodal elements, and factual research, our project encourages meaningful dialogue on advancing Reconciliation in Canada.</p>
+        <section>
+            <h2>Welcome!</h2>
+            <p>Discover the inspiring stories of Indigenous athletes who have made history in Canadian sports. Click the links above to learn more!</p>
+            <img src="athlete_banner.jpg" width="100%" alt="Indigenous athletes in action">
         </section>
     </div>
     
     <footer>
-        <p>&copy; 2025 Reconciliation Initiative | Designed for Educational Purposes</p>
+        <p>&copy; 2025 Indigenous Sports History | Educational Initiative</p>
+    </footer>
+</body>
+</html>
+
+<!-- HISTORY PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History of Indigenous Athletes</title>
+</head>
+<body>
+    <header>
+        <h1>History of Indigenous Athletes</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="impact.html">Impact & Legacy</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Historical Significance</h2>
+            <p>Indigenous athletes have long played a role in shaping the sports world, despite facing adversity and systemic barriers.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
+    </footer>
+</body>
+</html>
+
+<!-- NOTABLE ATHLETES PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notable Indigenous Athletes</title>
+</head>
+<body>
+    <header>
+        <h1>Notable Indigenous Athletes</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="impact.html">Impact & Legacy</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Famous Indigenous Athletes</h2>
+            <div class="athlete-card">
+                <img src="tom_longboat.jpg" alt="Tom Longboat">
+                <p><strong>Tom Longboat</strong>: A legendary long-distance runner and winner of the Boston Marathon.</p>
+            </div>
+            <div class="athlete-card">
+                <img src="fred_sasakamoose.jpg" alt="Fred Sasakamoose">
+                <p><strong>Fred Sasakamoose</strong>: One of the first Indigenous players in the NHL.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
+    </footer>
+</body>
+</html>
+
+<!-- IMPACT PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact & Legacy</title>
+</head>
+<body>
+    <header>
+        <h1>Impact & Legacy</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Inspiration for Future Generations</h2>
+            <p>These athletes continue to inspire and break barriers for Indigenous representation in sports.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
+    </footer>
+</body>
+</html>
+
+<!-- RESOURCES PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+</head>
+<body>
+    <header>
+        <h1>Resources</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="impact.html">Impact & Legacy</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Learn More</h2>
+            <p>For more stories, visit <a href="https://www.cbc.ca/newsinteractives/beyond-94/tell-the-stories-of-aboriginal-athletes-in-history" target="_blank">CBC's Beyond 94</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
     </footer>
 </body>
 </html>
