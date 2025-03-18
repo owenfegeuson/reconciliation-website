@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indigenous Athletes in History</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; }
+        header { background: #4CAF50; color: white; padding: 20px; text-align: center; font-size: 24px; }
+        nav { text-align: center; background: #333; padding: 10px; }
+        nav a { margin: 15px; text-decoration: none; color: white; font-weight: bold; font-size: 18px; }
+        section { padding: 20px; }
+        footer { background: #333; color: white; text-align: center; padding: 15px; font-size: 16px; }
+        .container { width: 90%; margin: auto; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 10px; }
+        .athlete-card { background: #eef; padding: 15px; margin: 15px 0; border-radius: 8px; display: flex; align-items: center; }
+        .athlete-card img { width: 150px; height: 150px; border-radius: 8px; margin-right: 20px; }
+        h2 { color: #4CAF50; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Indigenous Athletes in History</h1>
+    </header>
+    
+    <nav>
+        <a href="history.html">History</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="impact.html">Impact & Legacy</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    
+    <div class="container">
+        <section>
+            <h2>Welcome!</h2>
+            <p>Discover the inspiring stories of Indigenous athletes who have made history in Canadian sports. Click the links above to learn more!</p>
+            <img src="athlete_banner.jpg" width="100%" alt="Indigenous athletes in action">
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History | Educational Initiative</p>
+    </footer>
+</body>
+</html>
