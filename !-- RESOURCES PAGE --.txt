@@ -1,0 +1,29 @@
+<!-- RESOURCES PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources</title>
+</head>
+<body>
+    <header>
+        <h1>Resources</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="impact.html">Impact & Legacy</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Learn More</h2>
+            <p>For more stories, visit <a href="https://www.cbc.ca/newsinteractives/beyond-94/tell-the-stories-of-aboriginal-athletes-in-history" target="_blank">CBC's Beyond 94</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
+    </footer>
+</body>
+</html>
