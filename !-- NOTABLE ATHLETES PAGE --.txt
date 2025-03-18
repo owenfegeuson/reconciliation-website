@@ -1,0 +1,36 @@
+<!-- NOTABLE ATHLETES PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notable Indigenous Athletes</title>
+</head>
+<body>
+    <header>
+        <h1>Notable Indigenous Athletes</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="impact.html">Impact & Legacy</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Famous Indigenous Athletes</h2>
+            <div class="athlete-card">
+                <img src="tom_longboat.jpg" alt="Tom Longboat">
+                <p><strong>Tom Longboat</strong>: A legendary long-distance runner and winner of the Boston Marathon.</p>
+            </div>
+            <div class="athlete-card">
+                <img src="fred_sasakamoose.jpg" alt="Fred Sasakamoose">
+                <p><strong>Fred Sasakamoose</strong>: One of the first Indigenous players in the NHL.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
+    </footer>
+</body>
+</html>
