@@ -1,0 +1,29 @@
+<!-- IMPACT PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact & Legacy</title>
+</head>
+<body>
+    <header>
+        <h1>Impact & Legacy</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="athletes.html">Notable Athletes</a>
+        <a href="resources.html">Resources</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Inspiration for Future Generations</h2>
+            <p>These athletes continue to inspire and break barriers for Indigenous representation in sports.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Indigenous Sports History</p>
+    </footer>
+</body>
+</html>
